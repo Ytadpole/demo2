@@ -87,12 +87,10 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
-					<serverId>docker-hosted</serverId>
-					<!-- docker仓库地址，用于推送镜像 -->
-					<pushImage>true</pushImage>
 					<!-- 构建的镜像名称 -->
-					<imageName>registry.cn-shenzhen.aliyuncs.com/ytadpole/test</imageName>
+					<imageName>my</imageName>
 					<baseImage>java</baseImage>
+					<entryPoint>["java","-jar","${project.artifactId}-${project.version}.jar"]</entryPoint>
 					<imageTags>
 						<imageTag>latest</imageTag>
 					</imageTags>
