@@ -58,8 +58,8 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
-					<!-- 构建的镜像名称 -->
-					<imageName>my</imageName>
+					<dockerHost>registry.cn-hangzhou.aliyuncs.com</dockerHost>
+					<imageName>test</imageName>
 					<baseImage>java</baseImage>
 					<entryPoint>["java","-jar","${project.artifactId}-${project.version}.jar"]</entryPoint>
 					<imageTags>
