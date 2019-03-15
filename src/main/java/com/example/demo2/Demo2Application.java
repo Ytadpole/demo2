@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableAdminServer
 @SpringBootApplication
-@MapperScan("com.example.demo2.mapper")
+//@MapperScan("com.example.demo2.mapper")
 public class Demo2Application {
 
 	public static void main(String[] args) {
