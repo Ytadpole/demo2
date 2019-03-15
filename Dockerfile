@@ -1,4 +1,4 @@
-FROM airdock/oracle-jdk:1.8
+FROM registry.cn-shenzhen.aliyuncs.com/library-jdk/jdk
 
 VOLUME /tmp
 
