@@ -61,7 +61,7 @@
 					<imageName>registry.cn-shenzhen.aliyuncs.com/ytadpole/test</imageName>
 					<baseImage>java</baseImage>
 					<entryPoint>["java","-jar","${project.artifactId}-${project.version}.jar"]</entryPoint>
-					<pushImage>true</pushImage>
+					<!--<pushImage>true</pushImage>-->
 					<imageTags>
 						<imageTag>latest</imageTag>
 					</imageTags>
